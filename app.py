@@ -12,7 +12,7 @@ import re
 from threading import Thread
 
 # --- Environment & API Key ---
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY", "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")
+os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY", "https://console.groq.com/keys")
 
 # --- CSV Setup for leads ---
 CSV_FILE = "leads.csv"
